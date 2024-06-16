@@ -21,6 +21,7 @@
     "@fontsource-variable/jetbrains-mono": "^5.0.20",
     "@fontsource/roboto": "^5.0.12",
     "@swup/astro": "^1.4.0",
+    "@vercel/speed-insights": "^1.0.12",
     "astro": "^4.4.15",
     "astro-compress": "^2.2.15",
     "astro-icon": "1.1.0",
