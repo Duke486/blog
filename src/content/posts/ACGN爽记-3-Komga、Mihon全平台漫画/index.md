@@ -3,7 +3,7 @@ title: ACGN爽记-3-Komga、Mihon全平台漫画
 published: 2024-05-10
 updated: 2024-06-16
 description: 安装Komga服务端，使用Mihon客户端+插件实现多设备漫画阅读
-tags: [服务端, 软件, ACGN, 漫画]
+tags: [服务端, 软件, ACGN]
 category: ACGN科技
 image: "./assets/DALLE.jpg"
 draft: false

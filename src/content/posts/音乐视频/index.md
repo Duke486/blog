@@ -2,7 +2,7 @@
 title: 请问您今天要来点音乐吗？
 published: 2024-01-01
 description: 与你的日常，就是奇迹
-tags: [影音, 示例]
+tags: [影音]
 category: 探索
 draft: false
 ---
