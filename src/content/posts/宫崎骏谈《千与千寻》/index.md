@@ -3,7 +3,7 @@ title: 宫崎骏谈《千与千寻》
 published: 2024-05-18
 updated: 2024-06-16
 description: 在采访中，宫崎骏谈及《千与千寻》的创作初衷，以及对现代社会的思考。
-tags: [Markdown, Blogging, Demo]
+tags: [ACGN, 影评]
 category: 文摘
 image: "./assets/MV5BOTNhNzc4ZDItODYwZi00NzNhLTgwYzctZGNlMmZhYTBiOGQ0XkEyXkFqcGdeQXVyMTIwODk1NTQ@-20240518120624-wp0flz9.jpg"
 draft: false

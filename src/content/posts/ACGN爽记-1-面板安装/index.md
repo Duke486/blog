@@ -3,7 +3,7 @@ title: ACGN爽记-1-面板安装
 published: 2024-02-18
 updated: 2024-06-16
 description: 在服务器上准备1Panel面板，安装第一个Docker应用.
-tags: [Markdown, Blogging, Demo]
+tags: [服务端, Docker, Linux]
 category: ACGN科技
 image: "./assets/DALLE.webp"
 draft: false

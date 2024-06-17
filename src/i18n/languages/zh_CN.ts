@@ -2,11 +2,11 @@ import Key from '../i18nKey'
 import type { Translation } from '../translation'
 
 export const zh_CN: Translation = {
-  [Key.home]: '主页',
-  [Key.about]: '关于',
-  [Key.archive]: '归档',
+  [Key.home]: 'HOME',
+  [Key.about]: 'ABOUT',
+  [Key.archive]: 'ARCHIVE',
 
-  [Key.tags]: '标签',
+  [Key.tags]: 'Tags',
   [Key.categories]: '分类',
   [Key.recentPosts]: '最新文章',
 
@@ -23,11 +23,11 @@ export const zh_CN: Translation = {
   [Key.postCount]: '篇文章',
   [Key.postsCount]: '篇文章',
 
-  [Key.themeColor]: '主题色',
+  [Key.themeColor]: '色彩',
 
-  [Key.lightMode]: '亮色',
-  [Key.darkMode]: '暗色',
-  [Key.systemMode]: '跟随系统',
+  [Key.lightMode]: '要有光🌞',
+  [Key.darkMode]: '要黑暗💤',
+  [Key.systemMode]: '自动',
 
   [Key.more]: '更多',
 

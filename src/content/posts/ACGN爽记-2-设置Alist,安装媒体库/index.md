@@ -3,7 +3,7 @@ title: ACGN爽记-2-设置Alist，安装媒体库
 published: 2024-02-22
 updated: 2024-06-16
 description: 设置内网静态IP，为Alist添加卷，配置Jellyfin服务器
-tags: [Markdown, Blogging, Demo]
+tags: [服务端, 影音, 网络]
 category: ACGN科技
 image: "./assets/DALLE.jpg"
 draft: false

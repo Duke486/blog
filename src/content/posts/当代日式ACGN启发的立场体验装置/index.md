@@ -3,7 +3,7 @@ title: 当代日式ACGN启发的立场体验装置
 published: 2024-05-19
 updated: 2024-06-16
 description: 基于《你的名字》的立场体验装置设计，探讨物品作为连接人与人之间情感和理解的象征。
-tags: [Markdown, Blogging, Demo]
+tags: [ACGN, 校园, 设计]
 category: 校园
 image: "./assets/image1-20240408123137-ea202rt.png"
 draft: false

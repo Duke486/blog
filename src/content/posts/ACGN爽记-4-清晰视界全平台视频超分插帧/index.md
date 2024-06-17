@@ -3,7 +3,7 @@ title: ACGN爽记-4-清晰视界:全平台视频超分插帧
 published: 2024-05-20
 updated: 2024-06-16
 description: 通过MPV.net-DW和Reex播放器，与Anime4K算法搭配，在全平台实现视频超分。
-tags: [Markdown, Blogging, Demo]
+tags: [软件, ACGN, 影音]
 category: ACGN科技
 image: "./assets/DALLE.webp"
 draft: false

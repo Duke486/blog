@@ -2,8 +2,8 @@
 title: 请问您今天要来点音乐吗？
 published: 2024-01-01
 description: 与你的日常，就是奇迹
-tags: [Example, 视频]
-category: Examples
+tags: [影音, 示例]
+category: 探索
 draft: false
 ---
 
@@ -16,4 +16,4 @@ draft: false
 
 ## 与你的日常，就是奇迹
 
-<iframe style="border-radius: 15px;" width="100%" height="468" src="https://cn-cd-dx-tmp14.natfrp.cloud:63970/" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+<iframe style="border-radius: 15px;" width="100%" height="460px" src="https://duke486.com:81/" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>

@@ -1,10 +1,10 @@
 ---
 title: 你好Astro，你好Fuwari
 published: 2024-02-17
-description: "There is where all begin!  Ciallo～(∠・ω< )⌒☆"
+description: "Here is where all begin!  Ciallo～(∠・ω< )⌒☆"
 image: "./cover.jpeg"
-tags: ["Fuwari", "Blogging", "Customization"]
-category: Guides
+tags: ["主题", "博客", "个性化"]
+category: 探索
 draft: false
 ---
 
