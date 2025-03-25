@@ -1,4 +1,16 @@
-![image](assets/sakuraFRP-20240905220713-q0j836z.jpg)
+---
+title: 如何用自己的域名做https内网穿透
+# noinspection YAMLSchemaValidation
+published: 2024-09-05
+updated: 2024-09-05
+description: 从零开始，让你的内网服务支持公网https访问
+tags: [ 网络, 服务端 ]
+category: 探索
+image: "./assets/sakuraFRP-20240905220713-q0j836z.jpg"
+draft: false
+---
+
+
 
 # 用自己的域名做https内网穿透
 
@@ -9,6 +21,7 @@
 看了多个大厂的穿透服务，性价比不能说很低，只能说没有。遂去海鲜市场和各小厂找解决方案。转了一圈发现[Sakura FRP](https://www.natfrp.com/)的性价比挺不错，操作起来也简单，支持导出frpc客户端配置。本次就以Sakura穿透服务为例聊一聊如何**用自己的域名搭配内网穿透服务，并开启https安全连接**。
 
 ​![whyFRP](assets/whyFRP-20240905220819-yfdntuj.jpg "刚刚做好了FC社的宣传图，要怎么做才能让学长访问到呢？")​
+`刚刚做好了FC社的宣传图，要怎么做才能让学长访问到呢？`
 
 ## 开启隧道遇到的问题
 

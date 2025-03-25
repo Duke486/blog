@@ -25,7 +25,7 @@ const style = Astro.props.style
 <WidgetLayout name={i18n(I18nKey.categories)} id="categories" isCollapsed={isCollapsed} collapsedHeight={COLLAPSED_HEIGHT}
                 class={className} style={style}
 >
-<iframe style="display: block; margin: 0 auto;" width="90%" height="330px" src="https://duke486.com:81/neko.html" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+<iframe style="display: block; margin: 0 auto;" width="90%" height="330px" src="https://duke486.com/vid/neko.html" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
     {categories.map((c) =>
         <ButtonLink
             url={getCategoryUrl(c.name)}

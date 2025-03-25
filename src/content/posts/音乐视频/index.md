@@ -16,4 +16,4 @@ draft: false
 
 ## 与你的日常，就是奇迹
 
-<iframe style="border-radius: 15px;" width="100%" height="460px" src="https://duke486.com:81/" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+<iframe style="border-radius: 15px;" width="100%" height="460px" src="https://duke486.com/vid/ba.html" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>

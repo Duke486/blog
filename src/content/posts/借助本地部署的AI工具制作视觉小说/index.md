@@ -1,6 +1,18 @@
-![image](assets/image-20240909203624-dig6ynu.png)
+---
+title: 借助本地部署的AI工具制作视觉小说
+# noinspection YAMLSchemaValidation
+published: 2024-09-09
+updated: 2024-09-09
+description: 本文介绍了如何借助本地部署的AI工具，从零开始制作视觉小说，包括引擎、角色设定、剧情脚本、场景图、角色表情动作差分图、片头视频、片尾视频等内容。
+tags: [ 校园 , 软件,ACGN,CS,设计 ]
+category: 校园
+image: "./assets/image-20240909203624-dig6ynu.png"
+draft: false
+---
 
-# 借助本地部署的AI工具制作视觉小说
+
+
+
 
 ## 一次有趣的实践
 
