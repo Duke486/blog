@@ -4,7 +4,7 @@ title: c++数据结构常用操作
 published: 2024-06-29
 updated: 2024-06-29
 description: 一些常用的数据结构操作，包括数组、链表、Vector列表、栈、队列、双向队列、哈希表、树、堆等
-tags: [ 软件, 校园,CS ]
+tags: [ 软件, 校园, CS ]
 category: CS实践
 image: "./assets/数据结构-20240626162533-3zbg61k.webp"
 draft: false

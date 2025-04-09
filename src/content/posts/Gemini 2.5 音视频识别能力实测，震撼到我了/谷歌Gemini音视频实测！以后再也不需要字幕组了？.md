@@ -4,7 +4,7 @@ title: Gemini 2.5 音视频识别实测，震撼
 published: 2025-03-30
 updated: 2025-03-30
 description: 通过多个对Gemini 2.5 Pro的音视频测试案例，发现其音视频识别能力已达到了惊人的水平，甚至可以为普通动漫视频加字幕，且准确率极高。
-tags: [ 影音，ACGN，AI]
+tags: [ 影音, ACGN, AI]
 category: 探索
 image: "./assets/2.5_keyword_header_text.jpg"
 draft: false
