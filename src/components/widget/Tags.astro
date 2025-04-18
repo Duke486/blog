@@ -1,25 +1,24 @@
 ---
 
-import WidgetLayout from "./WidgetLayout.astro";
-import ButtonTag from "../control/ButtonTag.astro";
-import {getTagList} from "../../utils/content-utils";
-import {i18n} from "../../i18n/translation";
-import I18nKey from "../../i18n/i18nKey";
-import {url} from "../../utils/url-utils";
+import I18nKey from '../../i18n/i18nKey'
+import { i18n } from '../../i18n/translation'
+import { getTagList } from '../../utils/content-utils'
+import { url } from '../../utils/url-utils'
+import ButtonTag from '../control/ButtonTag.astro'
+import WidgetLayout from './WidgetLayout.astro'
 
-const tags = await getTagList();
+const tags = await getTagList()
 
-const COLLAPSED_HEIGHT = "7.5rem";
+const COLLAPSED_HEIGHT = '7.5rem'
 
-const isCollapsed = tags.length >= 20;
+const isCollapsed = tags.length >= 20
 
 interface Props {
-    class?: string;
-    style?: string;
+  class?: string
+  style?: string
 }
 const className = Astro.props.class
 const style = Astro.props.style
-
 ---
 <WidgetLayout name={i18n(I18nKey.tags)} id="tags" isCollapsed={isCollapsed} collapsedHeight={COLLAPSED_HEIGHT} class={className} style={style}>
     <div class="flex gap-2 flex-wrap">
@@ -29,4 +28,23 @@ const style = Astro.props.style
             </ButtonTag>
         ))}
     </div>
+    <br>
+    <iframe
+        style="display: block; margin: 0 auto; border-radius: 8px; transition: transform 0.3s ease, box-shadow 0.3s ease;"
+        width="90%"
+        height="330px"
+        src="https://duke486.com/vid/neko.html"
+        scrolling="no"
+        border="0"
+        frameborder="no"
+        framespacing="0"
+        allowfullscreen="true"
+    ></iframe>
 </WidgetLayout>
+
+<style>
+    iframe:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    }
+</style>

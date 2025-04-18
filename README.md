@@ -1,45 +1,77 @@
-# 🍥Fuwari
+# Personal Tech Blog
 
-A static blog template built with [Astro](https://astro.build).
+This is a personal tech blog built with Astro, mainly sharing technical learning and ACGN-related tech articles, tutorials, and experience.
 
-[**🖥️Live Demo (Vercel)**](https://fuwari.vercel.app)
+## 🔧 Tech Stack
 
-![Preview Image](https://raw.githubusercontent.com/saicaca/resource/main/fuwari/home.png)
+- Framework: [Astro](https://astro.build)
+- Theme: Customized based on [Fuwari](https://github.com/saicaca/fuwari)
 
+## 🚀 Local Setup
 
-## 🚀 How to Use
+1. Clone this repository
 
-1. [Generate a new repository](https://github.com/saicaca/fuwari/generate) from this template or fork this repository.
-2. To edit your blog locally, clone your repository, run `pnpm install` AND `pnpm add sharp` to install dependencies.  
-   - Install [pnpm](https://pnpm.io) `npm install -g pnpm` if you haven't.
-3. Edit the config file `src/config.ts` to customize your blog.
-4. Run `pnpm new-post <filename>` to create a new post and edit it in `src/content/posts/`.
-5. Deploy your blog to Vercel, Netlify, GitHub Pages, etc. following [the guides](https://docs.astro.build/en/guides/deploy/). You need to edit the site configuration in `astro.config.mjs` before deployment. 
+   ```bash
+   git clone <your-repo-url>
+   cd AstroBlog
+   ```
 
-## ⚙️ Frontmatter of Posts
+2. Install dependencies
+
+   ```bash
+   pnpm install
+   pnpm add sharp
+   ```
+
+3. Start the development server
+
+   ```bash
+   pnpm dev
+   ```
+
+4. Create a new post
+
+   ```bash
+   pnpm new-post <post-filename>
+   ```
+
+   Then edit the newly created post in the `posts` directory.
+
+## 📝 Post Format
+
+Posts use Markdown format. You need to add frontmatter information at the beginning of the file:
 
 ```yaml
 ---
-title: My First Blog Post
-published: 2023-09-09
-description: This is the first post of my new Astro blog.
-image: /images/cover.jpg
-tags: [Foo, Bar]
-category: Front-end
+title: Post Title
+published: 2025-04-10
+description: Post description, which will be displayed on the article card on the homepage
+image: ./assets/cover.jpg
+tags: [Tag1, Tag2]
+category: Category Name
 draft: false
 ---
 ```
 
-## 🧞 Commands
+## 📦 Build & Deployment
 
-All commands are run from the root of the project, from a terminal:
+Build the static website:
 
-| Command                             | Action                                           |
-|:------------------------------------|:-------------------------------------------------|
-| `pnpm install` AND `pnpm add sharp` | Installs dependencies                            |
-| `pnpm dev`                          | Starts local dev server at `localhost:4321`      |
-| `pnpm build`                        | Build your production site to `./dist/`          |
-| `pnpm preview`                      | Preview your build locally, before deploying     |
-| `pnpm new-post <filename>`          | Create a new post                                |
-| `pnpm astro ...`                    | Run CLI commands like `astro add`, `astro check` |
-| `pnpm astro --help`                 | Get help using the Astro CLI                     |
+```bash
+pnpm build
+```
+
+Preview the build result:
+
+```bash
+pnpm preview
+```
+
+## 📋 Available Commands
+
+| Command                  | Description                                  |
+|:-------------------------|:---------------------------------------------|
+| `pnpm dev`               | Start the development server at `localhost:4321` |
+| `pnpm build`             | Build the production site to the `./dist/` directory |
+| `pnpm preview`           | Preview the build result locally before deployment |
+| `pnpm new-post <filename>` | Create a new post                              |

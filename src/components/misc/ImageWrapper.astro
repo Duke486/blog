@@ -34,4 +34,3 @@ const imageStyle = `object-position: ${position}`
     {isLocal && <Image src={img} alt={alt || ""} class={imageClass} style={imageStyle}/>}
     {!isLocal && <img src={isPublic ? url(src) : src} alt={alt || ""} class={imageClass} style={imageStyle}/>}
 </div>
-

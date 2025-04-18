@@ -6,7 +6,7 @@ updated: 2025-04-09
 description: 通过路由器 DNS 劫持和 Nginx 反向代理，实现 NAS 服务在内外网环境下的无缝访问，解决手动切换地址的问题。
 tags: [ 网络, 服务端, NAS ]
 category: 探索
-image: "./assets/2025-04-09 23-12-49.png"
+image: "./assets/poster.jpg"
 draft: false
 ---
 

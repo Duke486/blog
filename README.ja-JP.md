@@ -1,55 +1,77 @@
-# 🍥Fuwari
+# 個人的な技術ブログ
 
-[Astro](https://astro.build)で構築された静的ブログテンプレート
+Astroで作られた個人的な技術ブログです。主に技術学習とACGN関連の技術記事、チュートリアル、経験を共有します！
 
-[**🖥️ライブデモ (Vercel)**](https://fuwari.vercel.app)&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;[**🌏中文**](https://github.com/saicaca/fuwari/blob/main/README.zh-CN.md)&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;[**🌏日本語**](https://github.com/saicaca/fuwari/blob/main/README.ja-JP.md)&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;[**📦旧Hexoバージョン**](https://github.com/saicaca/hexo-theme-vivia)
+## 🔧 技術スタック
 
-![Preview Image](https://raw.githubusercontent.com/saicaca/resource/main/fuwari/home.png)
+- 構築フレームワーク: [Astro](https://astro.build)
+- テーマ: [Fuwari](https://github.com/saicaca/fuwari)をベースにカスタマイズ
 
-## ✨ 特徴
+## 🚀 ローカルで実行する
 
-- [x] [Astro](https://astro.build)及び [Tailwind CSS](https://tailwindcss.com)で構築
-- [x] スムーズなアニメーションとページ遷移
-- [x] ライト/ダークテーマ対応
-- [x] カスタマイズ可能なテーマカラーとバナー
-- [x] レスポンシブデザイン
-- [ ] コメント機能
-- [x] 検索機能
-- [ ] 目次
+1. このリポジトリをクローンします
 
-## 🚀 使用方法
+   ```bash
+   git clone <your-repo-url>
+   cd AstroBlog
+   ```
 
-1. [テンプレート](https://github.com/saicaca/fuwari/generate)から新しいリポジトリを作成するかCloneをします。
-2. ブログをローカルで編集するには、リポジトリをクローンした後、`pnpm install` と `pnpm add sharp` を実行して依存関係をインストールします。  
-   - [pnpm](https://pnpm.io)がインストールされていない場合は `npm install -g pnpm` で導入可能です。
-3. `src/config.ts`ファイルを編集する事でブログを自分好みにカスタマイズ出来ます。
-4. `pnpm new-post <filename>`で新しい記事を作成し、`src/content/posts/`.フォルダ内で編集します。
-5. 作成したブログをVercel、Netlify、GitHub Pagesなどにデプロイするには[ガイド](https://docs.astro.build/ja/guides/deploy/)に従って下さい。加えて、別途デプロイを行う前に`astro.config.mjs`を編集してサイト構成を変更する必要があります。
+2. 依存関係をインストールします
 
-## ⚙️ 記事のフロントマター
+   ```bash
+   pnpm install
+   pnpm add sharp
+   ```
+
+3. 開発サーバーを起動します
+
+   ```bash
+   pnpm dev
+   ```
+
+4. 新しい記事を作成します
+
+   ```bash
+   pnpm new-post <記事ファイル名>
+   ```
+
+   それから posts ディレクトリに新しく作成された記事を編集します
+
+## 📝 記事のフォーマット
+
+記事はMarkdown形式を使用します。ファイルの先頭にfrontmatter情報を追加する必要があります:
 
 ```yaml
 ---
-title: My First Blog Post
-published: 2023-09-09
-description: This is the first post of my new Astro blog.
-image: /images/cover.jpg
-tags: [Foo, Bar]
-category: Front-end
+title: 記事のタイトル
+published: 2025-04-10
+description: 記事の説明です。ホームページの記事カードに表示されます
+image: ./assets/cover.jpg
+tags: [タグ1, タグ2]
+category: カテゴリ名
 draft: false
 ---
 ```
 
-## 🧞 コマンド
+## 📦 ビルドとデプロイ
 
-すべてのコマンドは、ターミナルでプロジェクトのルートから実行する必要があります:
+静的ウェブサイトをビルドします:
 
-| Command                             | Action                                           |
-|:------------------------------------|:-------------------------------------------------|
-| `pnpm install` AND `pnpm add sharp` | 依存関係のインストール                           |
-| `pnpm dev`                          | `localhost:4321`で開発用ローカルサーバーを起動      |
-| `pnpm build`                        | `./dist/`にビルド内容を出力          |
-| `pnpm preview`                      | デプロイ前の内容をローカルでプレビュー     |
-| `pnpm new-post <filename>`          | 新しい投稿を作成                                |
-| `pnpm astro ...`                    | `astro add`, `astro check`の様なコマンドを実行する際に使用 |
-| `pnpm astro --help`                 | Astro CLIのヘルプを表示                     |
+```bash
+pnpm build
+```
+
+ビルド結果をプレビューします:
+
+```bash
+pnpm preview
+```
+
+## 📋 利用可能なコマンド
+
+| コマンド                  | 説明                                          |
+|:-------------------------|:---------------------------------------------|
+| `pnpm dev`               | 開発サーバーを起動します。アドレスは`localhost:4321`です |
+| `pnpm build`             | 本番サイトを`./dist/`ディレクトリにビルドします        |
+| `pnpm preview`           | デプロイ前にローカルでビルド結果をプレビューします            |
+| `pnpm new-post <ファイル名>` | 新しい記事を作成します                              |

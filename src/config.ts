@@ -47,14 +47,6 @@ export const profileConfig: ProfileConfig = {
   name: 'Duke486',
   bio: 'CUMTer  CS初学者  ACGN爱好者',
   links: [
-    // {
-    //   name: 'Twitter',
-    //   icon: 'fa6-brands:twitter',       // Visit https://icones.js.org/ for icon codes
-    //                                     // You will need to install the corresponding icon set if it's not already included
-    //                                     // `pnpm add @iconify-json/<icon-set-name>`
-    //   url: 'https://twitter.com',
-    // },
-
     {
       name: 'GitHub',
       icon: 'fa6-brands:github',
@@ -63,12 +55,19 @@ export const profileConfig: ProfileConfig = {
     {
       name: 'Steam',
       icon: 'fa6-brands:steam',
-      url: 'https://store.steampowered.com',
+      url: 'https://steamcommunity.com/profiles/76561198404562076/',
     },
     {
       name: 'Bilibili',
       icon: 'fa6-brands:bilibili',
       url: 'https://space.bilibili.com/21921981',
+    },
+    {
+      name: 'Telegram',
+      icon: 'fa6-brands:telegram', // Visit https://icones.js.org/ for icon codes
+      // You will need to install the corresponding icon set if it's not already included
+      // `pnpm add @iconify-json/<icon-set-name>`
+      url: 'https://t.me/+YbPYFWlSrDw1ZGI1',
     },
     {
       name: 'Email',

@@ -1,8 +1,8 @@
 ---
-title: 地表最强-CLion一键分别运行多个cpp方法-C++
+title: 最方便的 CLion 一键分别运行多个cpp方法
 published: 2024-06-22
 updated: 2024-06-22
-description: 一种不借助任何插件的方法，实现在CLion中一键分别运行多个cpp文件
+description: 一种不借助任何插件的方法，实现在CLion中一键运行同一项目下的多个cpp文件
 tags: [软件, 校园,CS]
 category: CS实践
 image: "./assets/QQ截图20240621234433-20240621234450-5eyawd0.png"
@@ -13,7 +13,8 @@ draft: false
 
 
 :::note  
-文章标题所提到的是指中文互联网易于得到的搜索结果中，本方法是运行起来最为快捷的、准备起来最为简易并且一劳永逸的。不包含stackoverflow、reddit等英文社区可能存在的更优解决方案。  
+文章标题所提到的是指中文互联网易于得到的搜索结果中，本方法是运行起来最为快捷的、准备起来最为简易并且一劳永逸的。不包含社区可能存在的更优解决方案。</br>
+这个方案主要适用于学习C++过程中，方便在同一个项目下运行不同的、带main函数的cpp文件。  
 :::
 
 ## 痛点所在
@@ -91,7 +92,7 @@ endlocal
 
 ​![image](assets/image-20240621235410-boqwprg.png)​
 
-名称随便写，程序填写`cmd.exe`​。实参填写`/c "D:\WORK\run_current.bat" "$FileDir$\$FileName$"`​，注意替换这里面的bat文件位置。工作目录填写`$ProjectFileDir$ `​。
+名称随便写，程序填写`cmd.exe`​。实参填写`/c "D:\WORK\run_current.bat" "$FileDir$\$FileName$"`​，注意替换这里面的bat文件位置。工作目录填写`$ProjectFileDir$`​。
 
 这里的意思是以当前项目目录为工作目录调用我们的编译运行脚本，同时把`cpp文件路径+文件名.cpp`​作为参数传递到脚本中执行。
 
